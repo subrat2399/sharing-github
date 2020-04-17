@@ -1,0 +1,19 @@
+-Importing required libraries
+-Importing the the given dataset
+-converting the datetime column to seconds elapsed
+-visualization through graphs and plots
+-importing train_test_split to split the dataset into test and train data in 30:70 ratio
+-excluding the target column which is feature ..
+-importing LinearRegression algorithm
+- fitting the base model 
+-predition of feature of the test data 
+-comparision of actual and predicted data of feature of test data
+-since the r2 value is almost same for both the values we say that that the there is no bias in the train test spilt
+-import api to get the summary,From the above we can see that the model r2 is 0.073 which is really a bad model since it performance only 7%
+-Fitting Linear Regression model, Ridge model, Lasso model and ElasticNet model and checking the accuracy of all the model
+-GridSearch CV to find the best alpha value and l1_ratio.
+-implementing kfold to the test and train data
+-RMSE scores / Bias Error: 94.69267644671834 Variance Error :12.588604656803636 Ridge
+-RMSE scores / Bias Error: 94.95607655477018 Variance Error :12.649978457691741 Lasso
+-now predicting the feature for the 2nd dataset
+-
